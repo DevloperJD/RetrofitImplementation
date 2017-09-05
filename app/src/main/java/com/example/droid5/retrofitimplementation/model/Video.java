@@ -8,6 +8,9 @@ import android.os.Parcelable;
  */
 
 public class Video implements Parcelable {
+    public Video() {
+    }
+
     public String getThumbUrl() {
         return thumbUrl;
     }
